@@ -2,9 +2,17 @@
     .name = "mach-sysaudio",
     .version = "0.2.0",
     .dependencies = .{
+        .system_sdk = .{
+            .url = "https://github.com/slimsag/system-sdk/archive/9f160d97fb5c2e193c9f5f793ed78edd3a444fec.tar.gz",
+            .hash = "1220a3a9688b49c1feeae618056267c4f9123e86e7e3eb52764a3b48efb4a81af52a",
+        },
         .mach_sysjs = .{
             .url = "https://github.com/hexops/mach-sysjs/archive/b71eb0531f337fcca5a2b245f595355260109a34.tar.gz",
             .hash = "12208b30f1d9c229d1e64483354610207c9aa06350a46558560b818d597800ed86e0",
+        },
+        .linux_audio_headers = .{
+            .url = "https://github.com/hexops/linux-audio-headers/archive/7f861b6bfd8633b230ab14559af3e8776064e138.tar.gz",
+            .hash = "1220b0e7662bf6f28f8a40df37b6ac7faf0c07a62dba415902a34b24d2e0ab33c34a",
         },
     },
 }
